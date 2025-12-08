@@ -29,7 +29,8 @@
 
 ## 🔥 Updates
 
-- **[Dec/09/2025]** Project release, including project guides, and an colonoscopy-specific R1-styled model (ColonR1).
+- **[Dec/09/2025]** We are still sorting out the public data files, and double checking them to ensure accuracy, please be patient. We will release the full data files soon.
+- **[Dec/08/2025]** 🔥 Project release, including markdown guides, and an colonoscopy-specific R1-styled model (ColonR1).
 
 ## ✨ Highlights -- "What do we contribute to the community?"
 
