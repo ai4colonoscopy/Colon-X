@@ -2,7 +2,7 @@
 
 <div align="center">
 	<p align="center">
-        📖 <b>Title</b>: Colon-X: Advancing Intelligent Colonoscopy from <u>Multimodal Understanding</u> to <u>Clinical Reasoning</u> (<a href="https://arxiv.org/abs/2512.03667">🔗arXiv</a>)
+        📖 <b>Title</b>: Colon-X: Advancing Intelligent Colonoscopy from <u>Multimodal Understanding</u> to <u>Clinical Reasoning</u> (<a href="https://arxiv.org/abs/2512.03667">🔗arXiv</a>, <a href="https://huggingface.co/papers/2512.03667">🤗Huggingface</a>)
     </p>
 	<p align="center">
         🤝 <b>Project members</b>: <a href="https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=zh-CN&oi=ao">Ge-Peng Ji</a> (🇦🇺 Australian National University), <a href="https://github.com/Jancsi9981">Jingyi Liu</a> (🇨🇳 VCIP Lab, Nankai University), <a href="https://scholar.google.com/citations?user=kakwJ5QAAAAJ&hl=zh-CN&oi=ao">Deng-Ping Fan*</a> (🇨🇳 VCIP Lab, Nankai University), and <a href="https://scholar.google.com/citations?user=yMXs1WcAAAAJ&hl=zh-CN&oi=ao">Nick Barnes</a> (🇦🇺 Australian National University)
@@ -11,7 +11,7 @@
         🔍 <b>Keywords</b>: Multimodal Colonoscopy Analysis, Multimodal Understanding, Clinical Reasoning, Reinforcement Learning, Multimodal Benchmark, AI Healthcare, and Abdomen
     </p>
 	<p align="center">
-        🏥 <b>Multimodal datasets</b>: ColonVQA/ColonEval/ColonPert/ColonReason (access links is coming soon ...)
+        🏥 <b>Multimodal datasets</b>: ColonVQA/ColonEval/ColonPert/ColonReason (access links are coming soon ...)
     </p>
 	<p align="center">
         🤖 <b>The first R1-Styled model tailored for colonoscopy</b>: ColonR1 (<a href="https://drive.google.com/drive/folders/1mIo_3Lq4p15fBof75v3NSyNh75QZYCpu?usp=sharing">🔗Google Drive</a> & <a href="https://huggingface.co/ai4colonoscopy/ColonR1">🤗Huggingface</a>)
@@ -151,36 +151,6 @@ Below is a code snippet to help you quickly try out our ColonR1 model using Hugg
 	```
 
 
-## 📚 Reference
-
-Feel free to cite if you find the **Colon-X Project** useful for your work:
-
-	@article{ji2025colonx,
-	  title={Colon-X: Advancing Intelligent Colonoscopy from Multimodal Understanding to Clinical Reasoning},
-	  author={Ji, Ge-Peng and Liu, Jingyi and Fan, Deng-Ping and Barnes, Nick},
-	  journal={arXiv preprint arXiv:2512.03667},
-	  year={2025}
-	}
-
- We recommend reading the following concurrent works related to "intelligent colonoscopy" from our team:
-
-- Survey Paper on Intelligent Colonoscopy
-	- 🔥 ColonSurvey: paper link (https://arxiv.org/abs/2410.17241) & project link (https://github.com/ai4colonoscopy/IntelliScope?tab=readme-ov-file#-colonsurvey)
-- Visual analysis
-	- Image polyp segmentation
-		- 🔥 PraNet: paper link (https://link.springer.com/chapter/10.1007/978-3-030-59725-2_26) & project link (https://github.com/DengPingFan/PraNet)
-		- PraNet-v2: paper link (https://ieeexplore.ieee.org/document/10082016) & project link (https://github.com/ai4colonoscopy/PraNet-V2)
-	- Video polyp segmentation: 
-		- PNS-Net: paper link (https://arxiv.org/abs/2105.08468) & project link (https://github.com/GewelsJI/PNS-Net)
-		- 🔥 SUN-SEG & PNS++: paper link (https://arxiv.org/abs/2203.14291) & project link (https://github.com/GewelsJI/VPS)
-- Multimodal analysis
-  -  Multimodal understanding: paper link (https://arxiv.org/abs/2410.17241) & project link (https://github.com/ai4colonoscopy/IntelliScope)
-		- ColonINST: 500K+ VQA entries for instruction tuning dataset
-		- ColonGPT: the first multimodal large language model in colonoscopy
-  - 🔥 Multimodal reasoning: ColonReason & ColonR1 (this work)
-- Next frontier?
-
-
 ## 🙏 Acknowledgements
 
 We gratefully acknowledge the contributions of the following projects, which served as the foundation and inspiration for our work: 
@@ -197,7 +167,35 @@ ColonR1 is designed to assist in medical colonoscopy by leveraging multimodal re
 We urge users and developers to carefully review and validate the performance of pre-trained models, particularly those integrated through the ColonR1 framework, before considering practical applications in a clinical setting. It is crucial that any AI-driven tool used in healthcare undergoes rigorous testing to ensure patient safety and avoid unintended consequences. Our commitment to ethical AI use extends to ongoing efforts to investigate, address, and mitigate the risks of bias and inappropriate behavior in ColonR1. Continuous improvement of this codebase is a priority to ensure that the system aligns with responsible and equitable healthcare standards.
 
 
-## 🧩 Collaboration
+## 📚 Reference
+
+Feel free to cite if you find the **Colon-X Project** useful for your work:
+
+	@article{ji2025colonx,
+	  title={Colon-X: Advancing Intelligent Colonoscopy from Multimodal Understanding to Clinical Reasoning},
+	  author={Ji, Ge-Peng and Liu, Jingyi and Fan, Deng-Ping and Barnes, Nick},
+	  journal={arXiv preprint arXiv:2512.03667},
+	  year={2025}
+	}
+
+ We recommend reading the following concurrent works related to "intelligent colonoscopy" from our team:
+
+- Survey Paper on Intelligent Colonoscopy
+	- 🔥🔥🔥 **ColonSurvey**: paper link (https://arxiv.org/abs/2410.17241) & project link (https://github.com/ai4colonoscopy/IntelliScope?tab=readme-ov-file#-colonsurvey)
+- Visual analysis
+	- Image polyp segmentation
+		- 🔥🔥 **PraNet**: paper link (https://link.springer.com/chapter/10.1007/978-3-030-59725-2_26) & project link (https://github.com/DengPingFan/PraNet)
+		- PraNet-v2: paper link (https://ieeexplore.ieee.org/document/10082016) & project link (https://github.com/ai4colonoscopy/PraNet-V2)
+	- Video polyp segmentation: 
+		- PNS-Net: paper link (https://arxiv.org/abs/2105.08468) & project link (https://github.com/GewelsJI/PNS-Net)
+		- 🔥🔥 **SUN-SEG** & PNS++: paper link (https://arxiv.org/abs/2203.14291) & project link (https://github.com/GewelsJI/VPS)
+- Multimodal analysis
+  -  Multimodal understanding: paper link (https://arxiv.org/abs/2410.17241) & project link (https://github.com/ai4colonoscopy/IntelliScope)
+		- ColonINST: 500K+ VQA entries for instruction tuning dataset
+		- 🔥🔥 **ColonGPT**: the first multimodal large language model in colonoscopy
+  - 🔥🔥 Multimodal reasoning: ColonReason & **ColonR1** (This work!)
+
+## 🧩 neXt frontier? Seeking Collaborations
 
 We are actively looking for potential collaborators to help push this community forward — especially hospitals or medical institutions that can **provide diverse, real-world clinical colonoscopy data** (eg., data across different devices, modalities, patient populations, and clinical workflows). If you’re interested in contributing or partnering with us, we’d be very happy to connect. 
 
