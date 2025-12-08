@@ -30,7 +30,7 @@
 ## 🔥 Updates
 
 - **[Dec/09/2025]** We are still sorting out the public data files, and double checking them to ensure accuracy, please be patient. We will release the full data files soon.
-- **[Dec/08/2025]** 🔥 Project release, including markdown guides, and an colonoscopy-specific R1-styled model (ColonR1).
+- **[Dec/09/2025]** 🔥 Project release, including markdown guides, and an colonoscopy-specific R1-styled model (ColonR1).
 
 ## ✨ Highlights -- "What do we contribute to the community?"
 
@@ -43,9 +43,9 @@
 
 - **Motivation:** Multimodal Data Scarcity in Colonoscopy *“巧妇难为无米之炊 -- 多模态结肠镜数据的匮乏“*
 	- Currently, the field still struggles with a persistent [benchmarking crisis](https://www.nature.com/articles/s41591-025-03637-3), which stems not only from the scarcity of biomedical data, but also from the convention of task-specific models trained on isolated benchmarks. 
-- 💡 **Contribution:** Building a million-scale data foundation for multimodal colonoscopy analysis *“数据基建 -- 首个专注于结肠镜领域的百万级别多模态数据”*  
+- **Contribution:** Building a million-scale data foundation for multimodal colonoscopy analysis *“数据基建 -- 首个专注于结肠镜领域的百万级别多模态数据”*  
 	- To address this, we construct the largest multimodal colonoscopy dataset, ColonVQA, by consolidating public data sources, thus enabling task-modality synergies essential in multimodal intelligence.
-    - ColonVQA is the most extensive database ever built for multimodal colonoscopy analysis, featuring 1,100,786 visual question-answering (VQA) queries, equivalent to over 49.9 million textual tokens. It is distinguished by its <b>category-rich</b> composition, containing 212,742 images across 76 clinically meaningful findings, and <b>task-diverse</b> design, covering 18 multimodal tasks organized within a five-level taxonomy.
+    - 💡 ColonVQA is the most extensive database ever built for multimodal colonoscopy analysis, featuring 1,100,786 visual question-answering (VQA) queries, equivalent to over 49.9 million textual tokens. It is distinguished by its <b>category-rich</b> composition, containing 212,742 images across 76 clinically meaningful findings, and <b>task-diverse</b> design, covering 18 multimodal tasks organized within a five-level taxonomy.
 - **Data access:** Refer to [📝markdown guide](./docs/1-how-to-download-data.md) to download and prepare our entire dataset.
 
 ### 🌟 Highlight 2 -- Multimodal Understanding
@@ -152,15 +152,6 @@ Below is a code snippet to help you quickly try out our ColonR1 model using Hugg
 	```
 
 
-## 🙏 Acknowledgements
-
-We gratefully acknowledge the contributions of the following projects, which served as the foundation and inspiration for our work: 
-
-+ [📦 Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL): The most powerful vision-language model in the Qwen series to date.
-+ [📦 R1-V](https://github.com/StarsfieldAI/R1-V): Reinforcing Super Generalization Ability in Vision Language Models with Less Than $3.
-+ [📦 open-r1](https://github.com/huggingface/open-r1): A fully open reproduction of DeepSeek-R1. 
-
-
 ## 🚨 Ethical and Responsible Use
 
 ColonR1 is designed to assist in medical colonoscopy by leveraging multimodal reasoning capabilities, but it comes with no guarantees regarding its predictive accuracy or reliability in clinical practice. Users should be aware that the datasets and pre-trained models used in ColonR1 may contain inherent biases, including socioeconomic factors, which can lead to misclassification or other undesirable behaviors, such as the generation of offensive or inappropriate content.
@@ -196,10 +187,19 @@ Feel free to cite if you find the **Colon-X Project** useful for your work:
 		- 🔥🔥 **ColonGPT**: the first multimodal large language model in colonoscopy
   - 🔥🔥 Multimodal reasoning: ColonReason & **ColonR1** (This work!)
 
-## 🧩 neXt frontier? Seeking Collaborations
+## 🧩 Collaborating towards the neXt frontier
 
 We are actively looking for potential collaborators to help push this community forward — especially hospitals or medical institutions that can **provide diverse, real-world clinical colonoscopy data** (eg., data across different devices, modalities, patient populations, and clinical workflows). If you’re interested in contributing or partnering with us, we’d be very happy to connect. 
 
 We’re still on the journey toward building truly intelligent colonoscopy systems, and this project is very much under active development. We warmly welcome any feedback, ideas, or suggestions that can help shape its future. 
 
 For any inquiries or thoughts you’d like to share, feel free to reach out to us at 📧 gepengai.ji@gmail.com & 📧 jingyi.liu2657@gmail.com
+
+
+## 🙏 Acknowledgements
+
+We gratefully acknowledge the contributions of the following projects, which served as the foundation and inspiration for our work: 
+
++ [📦 Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL): The most powerful vision-language model in the Qwen series to date.
++ [📦 R1-V](https://github.com/StarsfieldAI/R1-V): Reinforcing Super Generalization Ability in Vision Language Models with Less Than $3.
++ [📦 open-r1](https://github.com/huggingface/open-r1): A fully open reproduction of DeepSeek-R1. 
