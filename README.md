@@ -2,19 +2,19 @@
 
 <div align="center">
 	<p align="center">
-        📖 <b>Title</b>: Colon-X: Advancing Intelligent Colonoscopy from <u>Multimodal Understanding</u> to <u>Clinical Reasoning</u> (<a href="https://arxiv.org/abs/2512.03667">🔗arXiv</a>, <a href="https://huggingface.co/papers/2512.03667">🤗Huggingface</a>)
+        📖 <b>[Title]</b> Colon-X: Advancing Intelligent Colonoscopy from <u>Multimodal Understanding</u> to <u>Clinical Reasoning</u> (<a href="https://arxiv.org/abs/2512.03667">🔗arXiv</a>, <a href="https://huggingface.co/papers/2512.03667">🤗Huggingface</a>, <a href="https://papers.cool/arxiv/2512.03667">📄CoolPapers</a>)
     </p>
 	<p align="center">
-        🤝 <b>Project members</b>: <a href="https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=zh-CN&oi=ao">Ge-Peng Ji</a> (🇦🇺 Australian National University), <a href="https://github.com/Jancsi9981">Jingyi Liu</a> (🇨🇳 VCIP Lab, Nankai University), <a href="https://scholar.google.com/citations?user=kakwJ5QAAAAJ&hl=zh-CN&oi=ao">Deng-Ping Fan*</a> (🇨🇳 VCIP Lab, Nankai University), and <a href="https://scholar.google.com/citations?user=yMXs1WcAAAAJ&hl=zh-CN&oi=ao">Nick Barnes</a> (🇦🇺 Australian National University)
+        🤝 <b>[Project members]</b> <a href="https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=zh-CN&oi=ao">Ge-Peng Ji</a> (🇦🇺 Australian National University), <a href="https://github.com/Jancsi9981">Jingyi Liu</a> (🇨🇳 VCIP Lab, Nankai University), <a href="https://scholar.google.com/citations?user=kakwJ5QAAAAJ&hl=zh-CN&oi=ao">Deng-Ping Fan*</a> (🇨🇳 VCIP Lab, Nankai University), and <a href="https://scholar.google.com/citations?user=yMXs1WcAAAAJ&hl=zh-CN&oi=ao">Nick Barnes</a> (🇦🇺 Australian National University)
     </p>
 	<p align="center">
-        🔍 <b>Keywords</b>: Multimodal Colonoscopy Analysis, Multimodal Understanding, Clinical Reasoning, Reinforcement Learning, Multimodal Benchmark, AI Healthcare, and Abdomen
+        🔍 <b>[Keywords]</b> Multimodal Colonoscopy Analysis, Multimodal Understanding, Clinical Reasoning, Reinforcement Learning, Multimodal Benchmark, AI Healthcare, and Abdomen
     </p>
 	<p align="center">
-        🏥 <b>Multimodal datasets</b>: ColonVQA/ColonEval/ColonPert/ColonReason (access links are coming soon ...)
+        🏥 <b>[Multimodal datasets]</b> ColonVQA/ColonEval/ColonPert/ColonReason (access links are coming soon ...)
     </p>
 	<p align="center">
-        🤖 <b>The first R1-Styled model tailored for colonoscopy</b>: ColonR1 (<a href="https://drive.google.com/drive/folders/1mIo_3Lq4p15fBof75v3NSyNh75QZYCpu?usp=sharing">🔗Google Drive</a> & <a href="https://huggingface.co/ai4colonoscopy/ColonR1">🤗Huggingface</a>)
+        🤖 <b>[Reasoning model]</b> The first R1-Styled model ColonR1 tailored for colonoscopy  (<a href="https://drive.google.com/drive/folders/1mIo_3Lq4p15fBof75v3NSyNh75QZYCpu?usp=sharing">🔗Google Drive</a> & <a href="https://huggingface.co/ai4colonoscopy/ColonR1">🤗Huggingface</a>)
     </p>
 </div>
 
@@ -35,7 +35,7 @@
 ## ✨ Highlights -- "What do we contribute to the community?"
 
 > [!important]
-> 📌 **TL;DR**
+> 📌 **TL;DR “太长不看版”**
 > Colonoscopy saves lives — but AI for colonoscopy is still far from intelligent. We are excited to launch the Colon-X project, an open initiative aimed at advancing multimodal intelligence in colonoscopy and beyond. Beyond serving as a community-wide data foundation, we're focused on a critical yet underexplored transition – evolving from multimodal understanding to clinical reasoning.
 
 
@@ -66,7 +66,7 @@
 
 ## 🛠️ Quick Start of Our Reasoning Model (ColonR1)
 
-Below is a code snippet to help you quickly try out our ColonR1 model using Hugging Face Transformers. For convenience, we manually combined some configuration and code files. Please note that this is a quick code, we recommend you using our full code to explore more.
+Below is a code snippet to help you quickly try out our ColonR1 model using [🤗Huggingface Transformers](https://huggingface.co/docs/transformers/en/index). For convenience, we manually combined some configuration and code files. Please note that this is a quick inference code, we recommend you using our full code to explore more.
 
 - Before running the snippet, you need to install the following minimum dependencies.
 
