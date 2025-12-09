@@ -45,7 +45,7 @@ class GRPOScriptArguments(ScriptArguments):
     Script arguments for the GRPO training script.
     """
     reward_funcs: list[str] = field(
-        default_factory=lambda: ["accuracy", "format", "length"],
+        default_factory=lambda: ["accuracy"],
         metadata={"help": "List of reward functions. Possible values: 'accuracy', 'format', 'length'"}
     )
     max_pixels: Optional[int] = field(

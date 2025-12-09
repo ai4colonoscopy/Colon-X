@@ -60,7 +60,7 @@ We recommend requesting the images from the providers of these datasets first. P
   | Data #31 | Endo4IE | 2,741 | 132 | 1,140 | [Link](https://data.mendeley.com/datasets/3j3tmghw33/1) |
   | Data #32 | Nerthus | 3,315 | 552 | 1,658 | [Link](https://www.kaggle.com/datasets/waltervanhuissteden/the-nerthus-dataset) |
 
-- **Accessing our JSON files.** Once you have successfully requested and downloaded the original images, you can download the VQA JSON files provided in our project, which contains four data parts: ColonVQA/ColonEval/ColonPert/ColonReason (Coming soon ...).
+- **Accessing our JSON files.** Once you have successfully requested and downloaded the original images, you can download the VQA JSON files provided in our project, which contains four data parts: ColonVQA/ColonEval/ColonPert/ColonReason ([🤗 Huggingface](https://huggingface.co/datasets/ai4colonoscopy/Colon-X) | [Gdrive](https://drive.google.com/drive/folders/1BDC3sCQkxzdks_Mh3yT9J8g2F8mv7i64?usp=sharing)).
 
 - **Reorganize file structure.** If you downloaded the images from a public link, their folder layout may differ from the one used in our project. Please use the paths specified in the JSON files as a guide and arrange the images accordingly so that your directory structure aligns with what the Colon-X project expects.
 

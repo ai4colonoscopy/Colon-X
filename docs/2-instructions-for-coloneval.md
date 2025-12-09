@@ -1,6 +1,6 @@
 # ColonEval: Evaluating multimodal understanding behaviours of MLLM
 
-To facilitate rapid evaluation on leading multimodal large language models (MLLMs), we derived a subset, ColonEval, from the test set of ColonVQA. This subset encompasses 4,568 VQA entries across 17 distinct tasks, covering a wide range of clinical scenarios in colonoscopy. ColonEval is designed to assess the generalization capabilities of MLLMs in the context of colonoscopy.
+> 📢 To facilitate rapid evaluation on leading multimodal large language models (MLLMs), we derived a subset, ColonEval, from the test set of ColonVQA. This subset encompasses 4,568 VQA entries across 16 distinct tasks, covering a wide range of clinical scenarios in colonoscopy. ColonEval is designed to assess the generalization capabilities of MLLMs in the context of colonoscopy.
 
 
 ## 1. Get Started with Inferring MLLMs on ColonEval
@@ -40,7 +40,7 @@ We provide a MedGemma inference example to demonstrate how we perform this proce
 
 - Firstly, download the MedGemma-4B checkpoints from [🤗HuggingFace](https://huggingface.co/google/medgemma-4b-it) and place them in the `cache/exp/ColonEval` path.
 - Secondly, set `EXP_MODEL_ID` to the path of your model checkpoints, such as `cache/exp/ColonEval/medgemma-4b-it`.
-- Then set `IMAGE_BASH_PATH` and `ROOT_PATH` to the root directories of the images and JSON files, respectively.
+- Then set `IMAGE_BASE_PATH` and `ROOT_PATH` to the root directories of the images and JSON files, respectively.
 - Next, please configure the environment according to [🔗MedGemma's instructions](https://github.com/google-health/medgemma).
 - Finally, just run `bash ColonEval/infer_open_source_demo.sh` to start inference.
 
@@ -51,7 +51,7 @@ We provide a o4-mini infer example to demonstrate how we perform this process. I
 
 - Firstly, please purchase the API quota from the model provider, for example, [🔗o4-mini](https://platform.openai.com/docs/quickstart).
 - Secondly, set `MODEL` as the model name. Use the officially published name, such as `o4-mini-2025-04-16`.
-- Then set `IMAGE_BASH_PATH` and `ROOT_PATH` to the root directories of the images and JSON files, respectively.
+- Then set `IMAGE_BASE_PATH` and `ROOT_PATH` to the root directories of the images and JSON files, respectively.
 - Finally, just run `bash ColonEval/infer_closed_source_demo.sh` to start inference.
 
 
@@ -78,7 +78,7 @@ If you are using ColonEval to test the generalization ability of MLLM, you only 
     python ColonEval/eval_engine.py \
         --task_id 1 \
         --eval_mode $EVAL_MODE \
-        --input_file $EXP_MODEL_ID/pred/pred_Task_1_5000_zero_shot_Test.json \
+        --input_file $EXP_MODEL_ID/pred/pred_Task_1_ColonEval.json \
         --output_file $EXP_MODEL_ID/pred/Task_1.txt > $EXP_MODEL_ID/pred/eval_task_1_log.txt 2>&1
     ```
 

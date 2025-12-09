@@ -27,7 +27,7 @@ We demonstrate the workflow using MedGemma. If you wish to test other models, yo
 
 - Firstly, download the MedGemma-4B checkpoints from [🤗HuggingFace](https://huggingface.co/google/medgemma-4b-it) and place them in `cache/exp/ColonPert`.
 - Secondly, set `EXP_MODEL_ID` to the path of your model checkpoints, such as `cache/exp/ColonPert/medgemma-4b-it`.
-- Configure `IMAGE_BASH_PATH` and `ROOT_PATH` for the images and JSON files, respectively.
+- Configure `IMAGE_BASE_PATH` and `ROOT_PATH` for the images and JSON files, respectively.
 - Prepare the environment following the [🔗MedGemma's instructions](https://github.com/google-health/medgemma).
 - Finally, run inference `bash ColonPert/infer_open_source_demo.sh`
 
@@ -111,3 +111,4 @@ Figure 1 illustrates representative examples from ColonPert and the model's perf
     Figure 1: Illustration of four types of human-induced perturbations.
     </em>
 </p>
+

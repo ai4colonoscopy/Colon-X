@@ -1014,7 +1014,7 @@ def main():
     parser.add_argument("--input_file", type=str)
     # Output file path for evaluation results
     parser.add_argument("--output_file", type=str)
-    # Evaluation mode: 'all' for full dataset, 'pilot' for pilot study subset (5000 samples)
+    # Evaluation mode: 'all' for full dataset, 'pilot' for ColonEval study subset
     parser.add_argument("--eval_mode", type=str, choices=['all', 'pilot', 'pert'])
     parser.add_argument(
         "--data_type", 

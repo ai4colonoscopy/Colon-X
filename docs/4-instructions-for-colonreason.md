@@ -1,6 +1,6 @@
 # ColonReason: A Multimodal Reasoning Dataset Designed for Colonoscopy
 
-We randomly sampled ∼1.5% of train–val VQA entries from the ColonVQA, and using the proposed pipeline, generated 7,484 reasoning-based VQA quadruples across 16 multimodal tasks, with outputs formatted as `<think>...</think><answer>...</answer>`. This enables the reinforced fine-tuning with reasoning supervision. 
+> 📢 We randomly sampled ∼1.5% of train–val VQA entries from the ColonVQA, and using the proposed pipeline, generated 7,484 reasoning-based VQA quadruples across 16 multimodal tasks, with outputs formatted as `<think>...</think><answer>...</answer>`. This enables the reinforced fine-tuning with reasoning supervision. 
 
 ## 1. Data Format
 
@@ -88,3 +88,4 @@ As shown in Figure 1, we visualize representative samples by selecting two sub-t
     Figure 1: Representative samples from ColonReason.
     </em>
 </p>
+

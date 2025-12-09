@@ -87,7 +87,7 @@ We provide one-key inference code. If you use ColonEval or follow the same data 
 
 Or you can infer it on your customized data
 
-- Set `IMAGE_BASH_PATH` and `ROOT_PATH` to the path of `cache/data` and `cache/data/JSON/Test`.
+- Set `IMAGE_BASE_PATH` and `ROOT_PATH` to the path of `cache/data` and `cache/data/JSON/Test`.
 - Set `EXP_MODEL_ID` to the path of the model weight you want to infer.
 - Then use `bash ColonR1/script/infer_eval/infer.sh` to start inference.
 
@@ -97,7 +97,7 @@ Or you can infer it on your customized data
     ```shell
     #!/bin/bash
 
-    IMAGE_BASH_PATH=cache/data
+    IMAGE_BASE_PATH=cache/data
     ROOT_PATH=cache/data/JSON/Test
     EXP_MODEL_ID=cache/checkpoints/ft-exp/ColonR1-Qwen2.5-VL-GRPO-thinking-StageII
 
@@ -107,9 +107,9 @@ Or you can infer it on your customized data
 
     nohup python ColonR1/serve/inference.py \
     --model_path $EXP_MODEL_ID \
-    --image_dir $IMAGE_BASH_PATH \
-    --json_file $ROOT_PATH/ColonEval/Task_1_zero_shot_Test_5000.json \
-    --output_path $EXP_MODEL_ID/pred/pred_Task_1_5000_zero_shot_Test.json > $EXP_MODEL_ID/pred/nohup-pred_task1.txt 2>&1 &
+    --image_dir $IMAGE_BASE_PATH \
+    --json_file $ROOT_PATH/ColonEval/Task_1_ColonEval.json \
+    --output_path $EXP_MODEL_ID/pred/pred_Task_1_ColonEval.json > $EXP_MODEL_ID/pred/nohup-pred_task1.txt 2>&1 &
     ```
 
 ## 💯 Evaluation
@@ -133,7 +133,7 @@ Or you can infer it on your customized data
         --task_id 1 \
         --data_type reasoning \
         --eval_mode $EVAL_MODE \
-        --input_file $EXP_MODEL_ID/pred/pred_Task_1_5000_zero_shot_Test.json \
+        --input_file $EXP_MODEL_ID/pred/pred_Task_1_ColonEval.json \
         --output_file $EXP_MODEL_ID/pred/Task_1.txt > $EXP_MODEL_ID/pred/eval_task_1_log.txt 2>&1
     ```
 
@@ -155,4 +155,5 @@ various fine-tuning methods.
     Figure 2: Qualitative comparison of COLONR1 with Med-R1 and Qwen-SFT.
     </em>
 </p>
+
 
