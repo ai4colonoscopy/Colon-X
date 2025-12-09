@@ -8,13 +8,13 @@
         🤝 <b>[Project members]</b> <a href="https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=zh-CN&oi=ao">Ge-Peng Ji</a> (🇦🇺 Australian National University), <a href="https://github.com/Jancsi9981">Jingyi Liu</a> (🇨🇳 VCIP Lab, Nankai University), <a href="https://scholar.google.com/citations?user=kakwJ5QAAAAJ&hl=zh-CN&oi=ao">Deng-Ping Fan*</a> (🇨🇳 VCIP Lab, Nankai University), and <a href="https://scholar.google.com/citations?user=yMXs1WcAAAAJ&hl=zh-CN&oi=ao">Nick Barnes</a> (🇦🇺 Australian National University)
     </p>
 	<p align="center">
-        🔍 <b>[Keywords]</b> Multimodal Colonoscopy Analysis, Multimodal Understanding, Clinical Reasoning, Reinforcement Learning, Multimodal Benchmark, AI Healthcare, and Abdomen
-    </p>
-	<p align="center">
         🏥 <b>[Multimodal datasets]</b> ColonVQA/ColonEval/ColonPert/ColonReason (<a href="https://drive.google.com/drive/folders/1BDC3sCQkxzdks_Mh3yT9J8g2F8mv7i64?usp=sharing">🔗Google Drive</a> & <a href="https://huggingface.co/datasets/ai4colonoscopy/Colon-X">🤗Huggingface</a>)
     </p>
 	<p align="center">
         🤖 <b>[Reasoning model]</b> The first R1-Styled model ColonR1 tailored for colonoscopy  (<a href="https://drive.google.com/drive/folders/1mIo_3Lq4p15fBof75v3NSyNh75QZYCpu?usp=sharing">🔗Google Drive</a> & <a href="https://huggingface.co/ai4colonoscopy/ColonR1">🤗Huggingface</a>)
+    </p>
+	<p align="center">
+        🔍 <b>[Keywords]</b> Multimodal Colonoscopy Analysis, Multimodal Understanding, Clinical Reasoning, Reinforcement Learning, Multimodal Benchmark, AI Healthcare, and Abdomen
     </p>
 </div>
 
@@ -59,7 +59,7 @@
 
 - **Contribution:** Evolving multimodal understanding to clinical reasoning in intelligent colonoscopy *“进阶蜕变 -- 让结肠镜多模态大模型从理解能力进化为推理能力”*
 	- 💡 **ColonReason:** *“使用多专家辩论框架构建推理链条”* A clinically grounded reasoning dataset annotated through a multi-expert debating pipeline. It simulates a clinical peer discussion loop (interpretation, debating, self-reflection) to generate structured reasoning traces. Refer to [📝markdown guide](./docs/4-instructions-for-colonreason.md) to access the curated reasoning dataset.
-	- 💡 **ColonR1:** *“不仅要会决策，还要会推理”* The first R1-styled model tailored for colonoscopy, incorporating task-adaptive rewarding to accommodate diverse tasks. It employs self-evolving prompting to learn from past errors, achieving SOTA performance with only ~7.5K training samples. We provide a quick demo below to help you get started. More details can be found in [📝markdown guide](./docs/5-instructions-for-colonr1.md).
+	- 💡 **ColonR1:** *“不仅要会决策，还要知道背后的原因”* The first R1-styled model tailored for colonoscopy, incorporating task-adaptive rewarding to accommodate diverse tasks. It employs self-evolving prompting to learn from past errors, achieving SOTA performance with only ~7.5K training samples. We provide a quick demo below to help you get started. More details can be found in [📝markdown guide](./docs/5-instructions-for-colonr1.md).
 
 
 ## 🛠️ Quick Start of Our Reasoning Model (ColonR1)
@@ -201,3 +201,5 @@ We gratefully acknowledge the contributions of the following projects, which ser
 + [📦 Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL): The most powerful vision-language model in the Qwen series to date.
 + [📦 R1-V](https://github.com/StarsfieldAI/R1-V): Reinforcing Super Generalization Ability in Vision Language Models with Less Than $3.
 + [📦 open-r1](https://github.com/huggingface/open-r1): A fully open reproduction of DeepSeek-R1. 
+
+Moreover, special thanks to the public datasets, as their contributions made it possible to build such such the largest-scale benchmark. These datasets include: [CAD-CAP](https://pmc.ncbi.nlm.nih.gov/articles/PMC7035135/), [CVC-ClinicDB](https://polyp.grand-challenge.org/CVCClinicDB/), [CVC-ColonDB](http://vi.cvc.uab.es/colon-qa/cvccolondb/), [EDD2020](https://edd2020.grand-challenge.org/), [ETIS-Larib](https://polyp.grand-challenge.org/ETISLarib/), [PICCOLO](https://www.biobancovasco.org/en/Sample-and-data-catalog/Databases/PD178-PICCOLO-EN.html), [PolypGen](https://www.synapse.org/Synapse:syn26376615/wiki/613312), [PS-NBI2K](https://github.com/JaeZ1205/PS_NBI2k), [Kvasir](https://datasets.simula.no/kvasir/), [Hyper-Kvasir](https://datasets.simula.no/hyper-kvasir/), [ASEI](https://endoscopy.selab.hcmus.edu.vn/), [Kvasir-Capsule](https://osf.io/dv2ag/), [GastroVision](https://osf.io/84e7f/), [SUN-SEG](https://github.com/GewelsJI/VPS), [WCEBleedGen](https://zenodo.org/records/10156571), [Capsule Vision 2024](https://github.com/UTSAVS26/Capsule-Vision-2024-Challenge), [KID1](https://mdss.uth.gr/datasets/endoscopy/kid/), [KID2](https://mdss.uth.gr/datasets/endoscopy/kid/), [in vivo](http://hamlyn.doc.ic.ac.uk/vision/), [KUMC](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FCBUOR), [CP-CHILD](https://figshare.com/articles/dataset/CP-CHILD_zip/12554042), [LIMUC](https://zenodo.org/records/5827695#.ZF-92OzMJqs), [SSL-CPCD](https://www.synapse.org/Synapse:syn52674005/files/), [MedFMC](https://doi.org/10.6084/m9.figshare.c.6476047.v1), [WCE Colon Disease](https://www.kaggle.com/datasets/francismon/curated-colon-dataset-for-deep-learning), [CPC-Paired](https://github.com/qinwang-ai/PolypsAlign), [ColonoscopicDS](http://www.depeca.uah.es/colonoscopy_dataset/), [PolypDB](https://github.com/DebeshJha/PolypDB), [Kvasir-Instrument](https://datasets.simula.no/kvasir-instrument/), [LDPolyVideo](https://github.com/dashishi/LDPolypVideo-Benchmark), [Endo4IE](https://data.mendeley.com/datasets/3j3tmghw33/1), and [Nerthus](https://www.kaggle.com/datasets/waltervanhuissteden/the-nerthus-dataset).

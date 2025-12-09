@@ -10,6 +10,10 @@
 
 ## 🏁 Installation guide
 
+> [!important]
+> 📌 **Troubleshooting guide.**
+> If you encounter any issues during installation or execution, please refer to our [📝 Troubleshooting Guide](./6-troubleshooting-guide.md) for solutions to common problems.
+
 - First, clone the repository and install the required dependencies:
     ```shell
     git clone git@github.com:ai4colonoscopy/Colon-X.git
