@@ -11,7 +11,7 @@
         🔍 <b>[Keywords]</b> Multimodal Colonoscopy Analysis, Multimodal Understanding, Clinical Reasoning, Reinforcement Learning, Multimodal Benchmark, AI Healthcare, and Abdomen
     </p>
 	<p align="center">
-        🏥 <b>[Multimodal datasets]</b> ColonVQA/ColonEval/ColonPert/ColonReason (access links are coming soon ...)
+        🏥 <b>[Multimodal datasets]</b> ColonVQA/ColonEval/ColonPert/ColonReason (<a href="https://drive.google.com/drive/folders/1BDC3sCQkxzdks_Mh3yT9J8g2F8mv7i64?usp=sharing">🔗Google Drive</a> & <a href="https://huggingface.co/datasets/ai4colonoscopy/Colon-X">🤗Huggingface</a>)
     </p>
 	<p align="center">
         🤖 <b>[Reasoning model]</b> The first R1-Styled model ColonR1 tailored for colonoscopy  (<a href="https://drive.google.com/drive/folders/1mIo_3Lq4p15fBof75v3NSyNh75QZYCpu?usp=sharing">🔗Google Drive</a> & <a href="https://huggingface.co/ai4colonoscopy/ColonR1">🤗Huggingface</a>)
@@ -29,15 +29,12 @@
 
 ## 🔥 Updates
 
-- **[Dec/09/2025]** We are still sorting out the public data files, and double checking them to ensure accuracy, please be patient. We will release the full data files soon.
-- **[Dec/09/2025]** 🔥 Project release, including markdown guides, and an colonoscopy-specific R1-styled model (ColonR1).
+- **[Dec/09/2025]** 🔥 Project release, including markdown guides, data access links, and an colonoscopy-specific R1-styled ColonR1 model.
 
 ## ✨ Highlights -- "What do we contribute to the community?"
 
 > [!important]
-> 📌 **TL;DR “太长不看版”**
-> 
-> Colonoscopy saves lives — but AI for colonoscopy is still far from intelligent. We are excited to launch the Colon-X project, an open initiative aimed at advancing multimodal intelligence in colonoscopy and beyond. Beyond serving as a community-wide data foundation, we're focused on a critical yet underexplored transition – evolving from multimodal understanding to clinical reasoning.
+> 📌 **TL;DR “太长不看版”** -- Colonoscopy saves lives — but AI for colonoscopy is still far from intelligent. We are excited to launch the Colon-X project, an open initiative aimed at advancing multimodal intelligence in colonoscopy and beyond. Beyond serving as a community-wide data foundation, we're focused on a critical yet underexplored transition – evolving from multimodal understanding to clinical reasoning.
 
 
 ### 🌟 Highlight 1 -- ColonVQA
