@@ -36,6 +36,7 @@
 
 > [!important]
 > 📌 **TL;DR “太长不看版”**
+> 
 > Colonoscopy saves lives — but AI for colonoscopy is still far from intelligent. We are excited to launch the Colon-X project, an open initiative aimed at advancing multimodal intelligence in colonoscopy and beyond. Beyond serving as a community-wide data foundation, we're focused on a critical yet underexplored transition – evolving from multimodal understanding to clinical reasoning.
 
 
