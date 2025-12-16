@@ -2,13 +2,13 @@
 
 <div align="center">
 	<p align="center">
-        📖 <b>[Title]</b> Colon-X: Advancing Intelligent Colonoscopy from <u>Multimodal Understanding</u> to <u>Clinical Reasoning</u> (<a href="https://arxiv.org/abs/2512.03667">🔗arXiv</a>, <a href="https://huggingface.co/papers/2512.03667">🤗Huggingface</a>, <a href="https://papers.cool/arxiv/2512.03667">📄CoolPapers</a>)
+        📖 <b>[Paper Title]</b> Colon-X: Advancing Intelligent Colonoscopy from <u>Multimodal Understanding</u> to <u>Clinical Reasoning</u> (<a href="https://arxiv.org/abs/2512.03667">🔗arXiv</a>, <a href="https://huggingface.co/papers/2512.03667">🤗Huggingface</a>, <a href="https://papers.cool/arxiv/2512.03667">📄CoolPapers</a>)
     </p>
 	<p align="center">
         🤝 <b>[Project members]</b> <a href="https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=zh-CN&oi=ao">Ge-Peng Ji</a> (🇦🇺 Australian National University), <a href="https://github.com/Jancsi9981">Jingyi Liu</a> (🇨🇳 VCIP Lab, Nankai University), <a href="https://scholar.google.com/citations?user=kakwJ5QAAAAJ&hl=zh-CN&oi=ao">Deng-Ping Fan*</a> (🇨🇳 VCIP Lab, Nankai University), and <a href="https://scholar.google.com/citations?user=yMXs1WcAAAAJ&hl=zh-CN&oi=ao">Nick Barnes</a> (🇦🇺 Australian National University)
     </p>
 	<p align="center">
-        🏥 <b>[Multimodal datasets]</b> ColonVQA/ColonEval/ColonPert/ColonReason (<a href="https://drive.google.com/drive/folders/1BDC3sCQkxzdks_Mh3yT9J8g2F8mv7i64?usp=sharing">🔗Google Drive</a> & <a href="https://huggingface.co/datasets/ai4colonoscopy/Colon-X">🤗Huggingface</a>) 👉 Fill out the <a href="https://forms.gle/69ia9TKXLQwnHXnY6"> 🈸google form</a> to unlock full access to our data.
+        🏥 <b>[Multimodal datasets]</b> ColonVQA/ColonEval/ColonPert/ColonReason (<a href="https://drive.google.com/drive/folders/1BDC3sCQkxzdks_Mh3yT9J8g2F8mv7i64?usp=sharing">🔗Google Drive</a> & <a href="https://huggingface.co/datasets/ai4colonoscopy/Colon-X">🤗Huggingface</a>) <br> 👉 Fill out the <a href="https://forms.gle/69ia9TKXLQwnHXnY6"> 🈸google form</a> to unlock full access to our data. 👈
     </p>
 	<p align="center">
         🤖 <b>[Reasoning model]</b> The first R1-Styled thinking model, ColonR1, tailored for colonoscopy tasks  (<a href="https://drive.google.com/drive/folders/1mIo_3Lq4p15fBof75v3NSyNh75QZYCpu?usp=sharing">🔗Google Drive</a> & <a href="https://huggingface.co/ai4colonoscopy/ColonR1">🤗Huggingface</a>)
@@ -17,7 +17,7 @@
         🔍 <b>[Keywords]</b> Multimodal Colonoscopy Analysis, Multimodal Understanding, Clinical Reasoning, Reinforcement Learning, Multimodal Benchmark, AI Healthcare, and Abdomen
     </p>
 	<p align="center">
-        💬 <b>[Contact]</b> Our Colon-X project is ongoing. I would love to hear your questions and suggestions: <a href="mailto:gepengai.ji@gmail.com">📧gepengai.ji@gmail.com</a>
+        💬 <b>[Contact]</b> Our Colon-X project is ongoing. We would love to hear your questions and suggestions: <a href="mailto:gepengai.ji@gmail.com">📧gepengai.ji@gmail.com</a>. To track the latest updates, please follow our <a href="https://github.com/ai4colonoscopy">👍research gallery page</a>.
     </p>
 </div>
 
