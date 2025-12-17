@@ -171,23 +171,6 @@ Feel free to cite if you find the **Colon-X Project** useful for your work:
 	  year={2025}
 	}
 
- We recommend reading the following concurrent works related to "intelligent colonoscopy" from our team:
-
-- Survey Paper on Intelligent Colonoscopy
-	- 🔥🔥🔥 **ColonSurvey**: paper link (https://arxiv.org/abs/2410.17241) & project link (https://github.com/ai4colonoscopy/IntelliScope?tab=readme-ov-file#-colonsurvey)
-- Visual analysis
-	- Image polyp segmentation
-		- 🔥🔥 **PraNet**: paper link (https://link.springer.com/chapter/10.1007/978-3-030-59725-2_26) & project link (https://github.com/DengPingFan/PraNet)
-		- PraNet-v2: paper link (https://ieeexplore.ieee.org/document/10082016) & project link (https://github.com/ai4colonoscopy/PraNet-V2)
-	- Video polyp segmentation: 
-		- PNS-Net: paper link (https://arxiv.org/abs/2105.08468) & project link (https://github.com/GewelsJI/PNS-Net)
-		- 🔥🔥 **SUN-SEG** & PNS++: paper link (https://arxiv.org/abs/2203.14291) & project link (https://github.com/GewelsJI/VPS)
-- Multimodal analysis
-  -  Multimodal understanding: paper link (https://arxiv.org/abs/2410.17241) & project link (https://github.com/ai4colonoscopy/IntelliScope)
-		- ColonINST: 500K+ VQA entries for instruction tuning dataset
-		- 🔥🔥 **ColonGPT**: the first multimodal large language model in colonoscopy
-  - 🔥🔥 Multimodal reasoning: ColonReason & **ColonR1** (This work!)
-
 ## 🧩 Collaborating towards the neXt frontier
 
 We are actively looking for potential collaborators to help push this community forward — especially hospitals or medical institutions that can **provide diverse, real-world clinical colonoscopy data** (eg., data across different devices, modalities, patient populations, and clinical workflows). If you’re interested in contributing or partnering with us, we’d be very happy to connect. 
