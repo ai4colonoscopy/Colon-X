@@ -122,7 +122,7 @@ To launch the Gradio web demo for ColonR1, follow these steps:
 
 ```shell
 conda activate colonr1
-python ColonR1/serve/inference_gradio_web_demo_v2.py --model_path cache/checkpoints/ft-exp/ColonR1-Qwen2.5-VL-GRPO-thinking-StageII
+python ColonR1/serve/inference_gradio_web_demo.py --model_path cache/checkpoints/ft-exp/ColonR1-Qwen2.5-VL-GRPO-thinking-StageII
 ```
 
 This will start a local web server, and you can access the demo by navigating to `http://localhost:7860` in your web browser. You can upload colonoscopy images and interact with the ColonR1 model through the web interface.
