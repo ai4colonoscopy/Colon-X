@@ -116,6 +116,17 @@ Or you can infer it on your customized data
     --output_path $EXP_MODEL_ID/pred/pred_Task_1_ColonEval.json > $EXP_MODEL_ID/pred/nohup-pred_task1.txt 2>&1 &
     ```
 
+### Gradio Web Demo Inference
+
+To launch the Gradio web demo for ColonR1, follow these steps:
+
+```shell
+conda activate colonr1
+python ColonR1/serve/inference_gradio_web_demo_v2.py --model_path cache/checkpoints/ft-exp/ColonR1-Qwen2.5-VL-GRPO-thinking-StageII
+```
+
+This will start a local web server, and you can access the demo by navigating to `http://localhost:7860` in your web browser. You can upload colonoscopy images and interact with the ColonR1 model through the web interface.
+
 ## 💯 Evaluation
 
 - To perform the evaluation, Set `EXP_MODEL_ID` to the path of the model you want to evaluate.
