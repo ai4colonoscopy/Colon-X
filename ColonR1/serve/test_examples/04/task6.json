@@ -1,0 +1,14 @@
+{
+    "id": "Positive-images/ColonoscopicDS/Test/NBI/adenoma_02/adenoma_02_1.jpg",
+    "image": "Positive-images/ColonoscopicDS/Test/NBI/adenoma_02/adenoma_02_1.jpg",
+    "conversations": [
+        {
+            "from": "human",
+            "value": "<image>\nWhich imaging technique does this image use? <A> Linked Color Imaging (LCI), <B> Narrow Band Imaging (NBI), <C> Blue Light Imaging (BLI), <D> Flexible Imaging Color Enhancement (FICE), <E> White Light Imaging (WLI)"
+        },
+        {
+            "from": "gpt",
+            "value": "<B> Narrow Band Imaging (NBI)"
+        }
+    ]
+}

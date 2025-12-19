@@ -118,10 +118,14 @@ Or you can infer it on your customized data
 
 ### Gradio Web Demo Inference
 
-To launch the Gradio web demo for ColonR1, follow these steps:
+> [!note]
+> **What is Gradio?** Gradio is an open-source Python library that allows you to quickly create customizable web-based interfaces for machine learning models. It enables users to interact with models through a user-friendly graphical interface, making it easier to demonstrate and test model capabilities without requiring extensive coding knowledge.
+
+To launch the [Gradio web demo](https://www.gradio.app) for ColonR1, follow these steps:
 
 ```shell
 conda activate colonr1
+# `--model_path` should point to your ColonR1 model checkpoint
 python ColonR1/serve/inference_gradio_web_demo.py --model_path cache/checkpoints/ft-exp/ColonR1-Qwen2.5-VL-GRPO-thinking-StageII
 ```
 

@@ -82,7 +82,11 @@ def load_model(model_path: str, use_flash_attn: bool = True):
 
     MODEL.eval()
     PROCESSOR = AutoProcessor.from_pretrained(model_path)
-    print("[Info] Model loaded successfully!")
+
+    print(f"[Info] Model loaded successfully!")
+    print("=== Generation defaults ===")
+    print(MODEL.generation_config)
+    print("===========================")
 
 
 @torch.inference_mode()
@@ -157,8 +161,8 @@ def build_demo():
 
                 answer_html = gr.HTML(label="Answer")
 
-                with gr.Accordion("Thinking", open=True):
-                    think_tb = gr.Textbox(lines=8, label="Raw")
+                with gr.Accordion("Thinking...", open=True):
+                    think_tb = gr.Textbox(lines=6, label="Raw")
 
         run_btn.click(
             fn=infer,
@@ -168,13 +172,17 @@ def build_demo():
 
         gr.Examples(
             examples=[
-                ["./test_examples/example1.jpg", "Does the image contain a polyp? Answer me with Yes or No."]
-                # ["/data/images/example2.jpg", "Is this image safe for work?"],
+                # example 2
+                ["./test_examples/02/102.jpg", 
+                 "What intervention phase does this image represent? <A> resection margin, <B> dyed resection margin, <C> resected polyp, <D> dyed lifted polyp"],
+                # example 4
+                ["./test_examples/04/adenoma_02_1.jpg", 
+                 "Which imaging technique does this image use? <A> Linked Color Imaging (LCI), <B> Narrow Band Imaging (NBI), <C> Blue Light Imaging (BLI), <D> Flexible Imaging Color Enhancement (FICE), <E> White Light Imaging (WLI)"]
             ],
             inputs=[img_in, q_in],
             fn=infer,
             run_on_click=True,
-            label="Examples (click to auto load & run)",
+            label="Examples (ps. click to auto load & run)",
         )
 
     return demo

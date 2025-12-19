@@ -1,0 +1,14 @@
+{
+    "id": "Positive-images/ASEI/Test/dyed_lifted_polyp/102.jpg",
+    "image": "Positive-images/ASEI/Test/dyed_lifted_polyp/102.jpg",
+    "conversations": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat intervention phase does this image represent? <A> resection margin, <B> dyed resection margin, <C> resected polyp, <D> dyed lifted polyp"
+        },
+        {
+            "from": "gpt",
+            "value": "<D> dyed lifted polyp"
+        }
+    ]
+}
