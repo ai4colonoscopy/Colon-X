@@ -32,8 +32,8 @@
 
 ## 🔥 Updates
 
-- **[Dec/19/2025]** 📢 New function! We have supported the [Gradio](https://www.gradio.app) web demo for our ColonR1 model! Please refer to the [📝demo guide](https://github.com/ai4colonoscopy/Colon-X/blob/main/docs/5-instructions-for-colonr1.md#gradio-web-demo-inference) for interactive web interface.
-- **[Dec/09/2025]** 🔥 Project release, including markdown guides, data access links, and an colonoscopy-specific R1-styled ColonR1 model.
+- **[Dec/19/2025]** New function! We have supported the [Gradio](https://www.gradio.app) web demo for our ColonR1 model! Please refer to the [📝demo guide](https://github.com/ai4colonoscopy/Colon-X/blob/main/docs/5-instructions-for-colonr1.md#gradio-web-demo-inference) for interactive web interface.
+- **[Dec/09/2025]** 🔥 Project release, including [markdown guides](./Colon-X/docs), data access links, and model assets for colonoscopy-specific R1-styled [ColonR1](./ColonR1/) model.
 
 ## ✨ Highlights -- "What do we contribute to the community?"
 
@@ -92,7 +92,7 @@ Below is a code snippet to help you quickly try out our ColonR1 model using [�
 
 	MODEL_PATH = "ai4colonoscopy/ColonR1"
 	  # You can replace it with your own image path and question.
-	IMAGE_PATH = "ColonR1/serve/test_examples/example1.jpg"
+	IMAGE_PATH = "ColonR1/serve/test_examples/02/102.jpg"
 	Question = "Does the image contain a polyp? Answer me with Yes or No."
 
 	print(f"[Info] Loading model from {MODEL_PATH}...")

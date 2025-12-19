@@ -8,7 +8,7 @@ warnings.filterwarnings('ignore')
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 MODEL_PATH = "ai4colonoscopy/ColonR1"
-IMAGE_PATH = "assets/example.jpg"
+IMAGE_PATH = "ColonR1/serve/test_examples/02/102.jpg"
 Question = "Does the image contain a polyp? Answer me with Yes or No."
 
 print(f"[Info] Loading model from {MODEL_PATH}...")
