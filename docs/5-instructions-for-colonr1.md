@@ -129,7 +129,12 @@ conda activate colonr1
 python ColonR1/serve/inference_gradio_web_demo.py --model_path cache/checkpoints/ft-exp/ColonR1-Qwen2.5-VL-GRPO-thinking-StageII
 ```
 
-This will start a local web server, and you can access the demo by navigating to `http://localhost:7860` in your web browser. You can upload colonoscopy images and interact with the ColonR1 model through the web interface.
+This will start a local web server, and you can access the demo by navigating to `http://localhost:7860` in your web browser. You can upload colonoscopy images and interact with the ColonR1 model through the web interface. 
+
+The below image showcases an example predicted by our ColonR1 in an interactive manner in Gradio UI demo.
+
+<img width="651" height="680" alt="image" src="https://github.com/user-attachments/assets/5f7c944b-7b5f-41fc-912a-867d3cd48af5" />
+
 
 ## 💯 Evaluation
 
@@ -174,5 +179,6 @@ various fine-tuning methods.
     Figure 2: Qualitative comparison of COLONR1 with Med-R1 and Qwen-SFT.
     </em>
 </p>
+
 
 
