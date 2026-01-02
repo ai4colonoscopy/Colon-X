@@ -2,7 +2,7 @@
 
 <div align="center">
 	<p align="center">
-        📖 <b>[Paper Title]</b> Colon-X: Advancing Intelligent Colonoscopy from <u>Multimodal Understanding</u> to <u>Clinical Reasoning</u> (<a href="https://arxiv.org/abs/2512.03667">🔗arXiv</a>, <a href="https://huggingface.co/papers/2512.03667">🤗Huggingface</a>, <a href="https://papers.cool/arxiv/2512.03667">📄CoolPapers</a>)
+        📖 <b>[Paper Title]</b> Colon-X: Advancing Intelligent Colonoscopy from <u>Multimodal Understanding</u> to <u>Clinical Reasoning</u> (<a href="https://arxiv.org/abs/2512.03667">🔗arXiv</a>, <a href="https://huggingface.co/papers/2512.03667">🤗Huggingface</a>, <a href="https://papers.cool/arxiv/2512.03667">📄CoolPapers</a>, <a href="https://youtu.be/UxZxwxfSHxE?si=_KtfUp4FTFA4_l9a">🎧YouTube Podcast</a>)
     </p>
 	<p align="center">
         🤝 <b>[Project members]</b> <a href="https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=zh-CN&oi=ao">Ge-Peng Ji</a> (🇦🇺 Australian National University), <a href="https://github.com/Jancsi9981">Jingyi Liu</a> (🇨🇳 VCIP Lab, Nankai University), <a href="https://scholar.google.com/citations?user=kakwJ5QAAAAJ&hl=zh-CN&oi=ao">Deng-Ping Fan*</a> (🇨🇳 VCIP Lab, Nankai University), and <a href="https://scholar.google.com/citations?user=yMXs1WcAAAAJ&hl=zh-CN&oi=ao">Nick Barnes</a> (🇦🇺 Australian National University)
