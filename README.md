@@ -35,6 +35,7 @@
 - **[Dec/19/2025]** New function! We have supported the [Gradio](https://www.gradio.app) web demo for our ColonR1 model! Please refer to the [📝demo guide](https://github.com/ai4colonoscopy/Colon-X/blob/main/docs/5-instructions-for-colonr1.md#gradio-web-demo-inference) for interactive web interface.
 - **[Dec/09/2025]** 🔥 Project release, including [markdown guides](./Colon-X/docs), data access links, and model assets for colonoscopy-specific R1-styled [ColonR1](./ColonR1/) model.
 
+
 ## ✨ Highlights -- "What do we contribute to the community?"
 
 > [!important]
@@ -179,8 +180,10 @@ We are actively looking for potential collaborators to help push this community 
 
 We’re still on the journey toward building truly intelligent colonoscopy systems, and this project is very much under active development. We warmly welcome any feedback, ideas, or suggestions that can help shape its future. 
 
-For any inquiries or thoughts you’d like to share, feel free to reach out to us at 📧 gepengai.ji@gmail.com & 📧 jingyi.liu2657@gmail.com
+For any inquiries or thoughts you’d like to share, feel free to reach out to us at 📧 gepengai.ji@gmail.com & 📧 jingyi.liu2657@gmail.com. Our next plans are
 
+- [ ] Release multimodal generation data
+- [ ] Creating Huggingface Tutorial
 
 ## 🙏 Acknowledgements
 
