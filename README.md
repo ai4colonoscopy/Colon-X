@@ -53,7 +53,7 @@
 
 ### 🌟 Highlight 2 -- Multimodal Understanding
 
-- **Motivation:** Multimodal understanding abilities are still unknown in colonoscopy *“未知之境 -- 多模态大模型在结肠镜领域到底发展到了什么地步？”*
+- **Motivation:** Multimodal understanding abilities are still unknown in colonoscopy *“未知之境 -- 当前多模态大模型在结肠镜领域到底发展到了什么地步？”*
 - **Contribution:** Benchmarking generalizability and reliability of MLLMs in colonoscopy “评估多模态大模型在结肠镜领域中的可用性和可靠性”
 	- 💡 **Generalizability:** *“可用性评估”* We introduce a clinically reviewed set, ColonEval, that assesses the generalizability of 22 multimodal large language models (MLLMs) across diverse colonoscopy tasks. Refer to [📝markdown guide](./docs/2-instructions-for-coloneval.md) to quickly start generalizability evaluation.
 	- 💡 **Reliability:** *“可靠性评估”* We introduce ColonPert to quantify robustness against human-induced perturbations. We identified a critical "text-dominance bias", where models are easily misled by implicit on-image text or explicit textual prompts. Refer to [📝markdown guide](./docs/3-instructions-for-colonpert.md) to quickly start reliability evaluation.
@@ -182,8 +182,8 @@ We’re still on the journey toward building truly intelligent colonoscopy syste
 
 For any inquiries or thoughts you’d like to share, feel free to reach out to us at 📧 gepengai.ji@gmail.com & 📧 jingyi.liu2657@gmail.com. Our next plans are
 
-- [ ] Release multimodal generation data
-- [ ] Creating Huggingface Tutorial
+- [ ] Release multimodal generation data, which is compitible with image-to-image tasks related to colon.
+- [ ] Creating Huggingface Tutorial for how to train an effective reasoning model in specific domain. We will open the box of training tricks from our experience on MLLM's post-training.
 
 ## 🙏 Acknowledgements
 
