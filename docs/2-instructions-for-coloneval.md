@@ -60,7 +60,7 @@ We provide a o4-mini infer example to demonstrate how we perform this process. I
 If you are using ColonEval to test the generalization ability of MLLM, you only need to modify a few configurations in `ColonEval/eval_generalizability.sh` to execute it.
 
 - If you performed the inference as described above, the prediction files should already be in the `cache/exp/ColonEval/Model_Name/pred` path. 
-  - **[Recommend!]** You can directly download all predictions from [🔗Google Drive](https://drive.google.com/drive/folders/1qHYVq0pr-THvlvF4Eszqj92Ahw2CP_Tg?usp=sharing). 
+  - **[Recommend!]** You can directly download all predictions from [🔗Google Drive](https://drive.google.com/drive/folders/1PevI_5Eu_2wpi9G6ra5Q3I9hORz1USX2?usp=sharing). 
 - Place the prediction file you need to eval in the `cache/exp/ColonEval/Model_Name` path. 
 - Set `EXP_MODEL_ID` to the path of the model you want to eval. See [📝here](#3-benchmarking-results) for information on the models we evaluated.
 - Now just use `bash ColonEval/eval_generalizability.sh` to start the evaluation. 
@@ -84,7 +84,7 @@ If you are using ColonEval to test the generalization ability of MLLM, you only 
 
 ## 3. Benchmarking Results
 
-The below is the generalizability of 22 MLLMs across four task categories and their integration within ColonEval. Accuracy is computed using a weighted arithmetic mean, with weights proportional to the sample count of each task category. The top three scores of both open and closed-source camps are highlighted using distinct colors (1st, 2nd, 3rd). Prediction results for each model on each task are available on [🔗Google Drive](https://drive.google.com/drive/folders/1qHYVq0pr-THvlvF4Eszqj92Ahw2CP_Tg?usp=sharing).
+The below is the generalizability of 22 MLLMs across four task categories and their integration within ColonEval. Accuracy is computed using a weighted arithmetic mean, with weights proportional to the sample count of each task category. The top three scores of both open and closed-source camps are highlighted using distinct colors (1st, 2nd, 3rd). Prediction results for each model on each task are available on [🔗Google Drive](https://drive.google.com/drive/folders/1PevI_5Eu_2wpi9G6ra5Q3I9hORz1USX2?usp=sharing).
 
 <p align="center">
     <img src="../assets/benchmarking_results_coloneval.jpg"/> <br />
