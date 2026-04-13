@@ -32,6 +32,7 @@
 
 ## 🔥 Updates
 
+- **[Apr/14/2026]** The statistical data in the 'Total cls' row of Table 7 in the [Appendix](./docs/Appendix.pdf) has been corrected.
 - **[Dec/19/2025]** New function! We have supported the [Gradio](https://www.gradio.app) web demo for our ColonR1 model! Please refer to the [📝demo guide](https://github.com/ai4colonoscopy/Colon-X/blob/main/docs/5-instructions-for-colonr1.md#gradio-web-demo-inference) for interactive web interface.
 - **[Dec/09/2025]** 🔥 Project release, including [markdown guides](./Colon-X/docs), data access links, and model assets for colonoscopy-specific R1-styled [ColonR1](./ColonR1/) model.
 
