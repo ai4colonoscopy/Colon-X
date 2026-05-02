@@ -11,3 +11,8 @@
     pip install cache/flash-attn/flash_attn-2.7.1.post4+cu11torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
     ```
 
+## Q2. Compatibility of various ulcerative colitis labels 
+- **Problem:**  
+  There may appear to be overlap between the general `CLS#33` ulcerative colitis label and fine-grained labels (`CLS#34`~`CLS#40`) for ulcerative colitis grading.
+- **Explanation:**
+The `CLS#33` ulcerative colitis label is used only for the classification task, whereas the fine-grained ulcerative colitis grading labels (`CLS#34`~`CLS#40`) are used only for the ulcerative colitis grading task. These labels are separated at the task-design level, which avoids direct label conflicts.
